@@ -3,10 +3,10 @@ Important: Please read our [Quick Start Guide] in advance if you're new to AMBER
 
 #Faq
 
-* How to re-enable mini-hub working with the robotic if you pull out the Mini-Hub wires from the Master Control Unit.
-For the version before 05/01/2024, please update the initCAN.sh by the link，https://github.com/MrAsana/AMBER_B1_Robotic_Arm_V2/blob/main/scripts/initCAN.sh. 
+# How to re-enable mini-hub working with the robotic if you pull out the Mini-Hub wires from the Master Control Unit?
 
-When you have this latest version,  please re-enable the Minihub and lauch the major service amber_core depend on the robotic arm model. 
+For the version before 05/01/2024, please update the initCAN.sh by the link first，https://github.com/MrAsana/AMBER_B1_Robotic_Arm_V2/blob/main/scripts/initCAN.sh. 
+
 Step 1, Terminal the backend service as below.
 
 `sudo killall wave waved `
