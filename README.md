@@ -1,3 +1,31 @@
 # AMBER-B1-Robotic-Arm_V2
-Please read our [Quick Start Guide](https://github.com/MrAsana/AMBER_B1_Robotic_Arm_V2/blob/main/Robotic%20Arm%20Hardware%20Quickstart%20%26%20Robot%20Studio%20Manual%20V0.0.11.pdf) in pdf format
+Important: Please read our [Quick Start Guide] in advance if you're new to AMBER Robotic Arm(https://github.com/MrAsana/AMBER_B1_Robotic_Arm_V2/blob/main/Robotic%20Arm%20Hardware%20Quickstart%20%26%20Robot%20Studio%20Manual%20V0.0.11.pdf) 
 
+#Faq
+
+* How to re-enable mini-hub working with the robotic if you pull out the Mini-Hub wires from the Master Control Unit.
+For the version before 05/01/2024, please update the initCAN.sh by the link，https://github.com/MrAsana/AMBER_B1_Robotic_Arm_V2/blob/main/scripts/initCAN.sh. 
+
+When you have this latest version,  please re-enable the Minihub and lauch the major service amber_core depend on the robotic arm model. 
+Step 1, Terminal the backend service as below.
+
+`sudo killall wave waved `
+
+Step 2, Run Minihub initizing script.
+
+For 6-axis AMBER C1 model, 
+
+`cd /home/amber/amber_core_6`
+
+For 7-axis L1/B1 model,
+
+`cd /home/amber/amber_core_7`
+
+And then
+*Make sure you have download and update the initCAN.sh script, that's located at /home/amber.
+
+`bash initCAN.sh`
+
+Step 3 Launch Core Control System
+
+`nohup ./amber_core >core.log 2>&1 &`
