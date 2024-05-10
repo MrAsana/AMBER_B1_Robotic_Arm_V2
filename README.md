@@ -1,9 +1,9 @@
-# AMBER-B1-Robotic-Arm_V2
+## AMBER-B1-Robotic-Arm_V2
 Important: Please read our [Quick Start Guide] in advance if you're new to AMBER Robotic Arm(https://github.com/MrAsana/AMBER_B1_Robotic_Arm_V2/blob/main/Robotic%20Arm%20Hardware%20Quickstart%20%26%20Robot%20Studio%20Manual%20V0.0.11.pdf) 
 
-#Faq
+##Faq
 
-# How to re-enable mini-hub working with the robotic if you pull out the Mini-Hub wires from the Master Control Unit?
+** How to re-enable mini-hub working with the robotic if you pull out the Mini-Hub wires from the Master Control Unit?
 
 For the version before 05/01/2024, please update the initCAN.sh by the link first，https://github.com/MrAsana/AMBER_B1_Robotic_Arm_V2/blob/main/scripts/initCAN.sh. 
 
