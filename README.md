@@ -2,7 +2,7 @@
 Important: Please read our [Quick Start Guide] in advance if you're new to AMBER Robotic Arm(https://github.com/MrAsana/AMBER_B1_Robotic_Arm_V2/blob/main/Robotic%20Arm%20Hardware%20Quickstart%20%26%20Robot%20Studio%20Manual%20V0.0.11.pdf) 
 
 Important: Please reset the robotic arm to the initial position before it's powered on.
-[Initial positon](https://raw.githubusercontent.com/MrAsana/AMBER_B1_Robotic_Arm_V2/main/initial-position.png)
+![Initial positon](https://raw.githubusercontent.com/MrAsana/AMBER_B1_Robotic_Arm_V2/main/initial-position.png)
 
 ##Faq
 
